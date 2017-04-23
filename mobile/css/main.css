@@ -1,0 +1,80 @@
+/*---------------------- Common ----------------------*/
+.center {
+    display: table;
+    margin: 0 auto;
+}
+
+/*---------------------- Header ----------------------*/
+#three-dots {
+	position: absolute;
+	bottom: 3%;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0%)
+}
+.three-dot {
+	float: left;
+	width: 8px;
+	height: 8px;
+	border-radius: 100px;
+	margin: 0 6px;
+	background-color: #d8d8d8;
+}
+.three-dot.selected {
+	background-color: #27ae60;
+}
+
+/*----------------------- Steps ----------------------*/
+#steps-title {
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+}
+#steps-desc {
+    letter-spacing: 1px;
+    margin-top: 18px;
+    font-size: 13px;
+    color: #2c2c2c;
+}
+.single-step-img {
+	max-width: 200px;
+}
+.single-step-title {
+	margin-top: 25px;
+}
+#download-section-download-btn {
+	width: 170px;
+    font-family: PingFangSC;
+    font-size: 13px;
+    text-align: center;
+    padding: 9px;
+    /* position: absolute; */
+    /* bottom: 15%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, 0%); */
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border: solid 0.5px #ffffff;
+    background: transparent;
+    font-weight: normal;
+    /* text-align: center; */
+    align-self: center;
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    display: table;
+    margin: 0 auto;
+}
+
+/********************* Contact Us **********************/
+@-webkit-keyframes autofill {
+    to {
+       color: #fff;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+

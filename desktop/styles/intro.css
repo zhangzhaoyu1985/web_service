@@ -1,0 +1,127 @@
+/* Winemate Tag Intro Section */
+#winemate-logo {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 120px;
+	height: 120px;
+}
+#winemate-logo-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #27ae60;
+	margin-bottom: 20px;
+}
+#winemate-desc {
+	width: 500px;
+	font-size: 13px;
+	color: #626262;
+}
+#winemate-detail-img {
+	width: 280px;
+}
+#winemate-detail {
+	position:relative;
+	width: 880px; /* in sync with .detail-desc */
+	padding-top: 50px;
+}
+.detail-desc {
+	width: 290px; /* in sync with #winemate-detail */
+	position: absolute;
+}
+#detail-desc-1 {
+	top:158px;
+	right:0px;
+}
+#detail-desc-2 {
+	top:331px;
+	right:0px;
+}
+#detail-desc-3 {
+	top:161px;
+	left:0px;
+	text-align:right;
+}
+#detail-desc-4 {
+	top:332px;
+	left:0px;
+	text-align:right;
+}
+.detail-desc h3 {
+	font-size: 13px;
+	font-weight: bold;
+}
+.detail-desc p {
+	font-size: 13px;
+	color: #626262;
+}
+@media only screen and (max-width: 930px) {
+    #winemate-detail {
+		width: 660px; /* in sync with .detail-desc */
+	}
+	.detail-desc {
+		width: 180px; /* in sync with #winemate-detail */
+	}
+	.detail-desc p, .detail-desc h3  {
+		font-size: 11px;
+	}
+}
+
+/* 3 Steps Intro Section */
+#steps-section {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #f3f3f3;
+}
+#steps-title {
+	letter-spacing: 1px;
+	font-size: 24px;
+	color: #2c2c2c;
+}
+#steps-desc {
+	letter-spacing: 1px;
+	margin-top: 18px;
+	font-size: 13px;
+	color: #2c2c2c;
+}
+#steps-container {
+	margin-top: 60px;
+}
+.single-step {
+	display: inline-block;
+	width: 300px;
+}
+#single-step-img-1{
+	height:160px;
+	width:160px;
+}
+#single-step-img-2 {
+	height:155px;
+	width:150px;
+}
+#single-step-img-3 {
+	height:160px;
+	width:185px;
+}
+.single-step-title {
+	color: #2c2c2c;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.single-step-desc {
+	color: #626262;
+	font-size: 13px;
+}
+@media only screen and (max-width: 930px) {
+	.single-step {
+		width: 220px;
+	}
+	.single-step-title {
+		font-size: 18px;
+	}
+	.single-step-desc {
+		font-size: 12px;
+	}
+}

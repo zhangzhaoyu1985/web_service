@@ -1,0 +1,66 @@
+/* Download App Sections */
+#download-app-section {
+	height: 400px;
+    width: 100%;
+	padding-top: 100px; 
+    background: url(../img/banner_2-min.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#download-app-title {
+	opacity: 0.9;
+	text-align: center;
+	color: #ffffff;
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: 3px;
+}
+#download-app-desp {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	opacity: 0.8;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+#download-app-section-btn {
+	border-radius: 2px;
+	font-size: 12px;
+	padding: 8px 16px;
+}
+/* App Detail Sections */
+.app-section {
+	padding-top: 20px;
+}
+#app-section-1-img {
+	height:400px;
+}
+#app-section-2-img {
+	height:400px;
+}
+.app-section-block h4 {
+	margin-bottom: 15px;
+	font-size: 24px;
+	color: #2c2c2c;
+	letter-spacing: 1px;
+}
+.app-section-block li {
+	margin-bottom: 10px;
+	color: #626262;
+	font-size: 14px;
+}
+.app-section-container {
+	width: 750px;
+}
+.app-section-block {
+	width: 364px;
+}
+@media only screen and (max-width: 930px) {
+	.app-section-container {
+		width: 680px;
+	}
+
+}

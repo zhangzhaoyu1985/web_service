@@ -1,0 +1,127 @@
+.header-btn {
+	margin-top: 24px;
+	margin-left: 15px;
+	float: right;
+	font-size: 13px;
+}
+.header-link {
+	cursor: pointer;
+	float: right;
+	color: #ffffff;
+	margin-top: 31px;
+	margin-left: 14px;
+	margin-right: 6px;
+	font-size: 13px;
+}
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+@media all and (max-width: 850px) {
+	.header-btn {
+		margin-left: 8px;
+	}
+	.header-link {
+		margin-left: 8px;
+		margin-right: 4px;
+	}
+}
+#landing {
+	min-height: 500px;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+	-webkit-transition: background-image 0.2s ease-in-out !important;
+	transition: background-image 0.2s ease-in-out !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#header-bar {
+	min-width: 680px; /* In sync with body */
+	z-index: 1000;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(69, 69, 69, 0.5);
+	padding-left: 10%;
+	padding-right: 10%;
+	top: 0;
+    left: 0;
+    right: 0;
+}
+@media only screen and (max-device-width: 480px) {
+	#header-bar {
+		min-width: 0px; /* In sync header bar */
+	}
+}
+#footer-download-btn {
+	border-radius: 2px;
+	font-size: 12px;
+}
+#logo {
+    position:absolute;
+    margin-top: 17px;
+}
+#slogan {
+	transition: opacity 0.2s ease-in-out !important;
+    top: 35%;
+	left: 100px;
+	margin-top:auto;
+	margin-bottom:auto;
+    position: absolute;
+    margin-left: 10%;
+    color: white;
+}
+#slogan h1 {
+	opacity: 0.9;
+	line-height: 40px;
+	letter-spacing: 5px;
+    font-size:30px;
+}
+#slogan p {
+	opacity: 0.8;
+    font-size:13px;
+	line-height: 24px;
+}
+#landing-footer {
+	opacity: 0.9;
+	text-align: center;
+    background-color: #222222;
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+#landing-footer p {
+	opacity: 0.9;
+	display: inline;
+	line-height: 86px;
+	letter-spacing: 1px;
+    font-size:20px;
+    color:white;
+}
+@media only screen and (max-width: 950px) {
+    #header-bar {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+    #logo {
+        width: 80px;
+		margin-top: 22px;
+    }
+    #logo img {
+        width: 80px;
+    }
+    #slogan h1 {
+        font-size:24px;
+		line-height: 36px;
+    }
+	#slogan p {
+		line-height: 10px;
+	}
+}

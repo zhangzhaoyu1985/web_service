@@ -1,0 +1,7 @@
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    /* background-color: #ddd; */
+	background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent !important;
+}

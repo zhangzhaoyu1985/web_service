@@ -1,0 +1,201 @@
+/* Follow Us section */
+#follow-us-section {
+	height: 350px;
+    width: 100%;
+	padding-top: 110px; 
+    background: url(../img/paralax_1-min.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#follow-us-title {
+	margin-top: 30px;
+	margin-bottom: 18px;
+	opacity: 0.9;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#subscribe-input {
+	width: 350px;
+}
+#subscribe-input input {
+	border: solid 1px #aaaaaa;
+	background-color: transparent;
+	font-size: 12px;
+	color: #f3f3f3;
+}
+#subscribe-input button {
+	font-size: 12px;
+	height: 34px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#qr-code-img {
+	height:80px;
+	height:80px;
+}
+#about-us-desc {
+	line-height: 25px;
+	font-size: 12px;
+	color: #626262;
+	letter-spacing: 1px;
+}
+#about-us-desc p {
+	margin-bottom: 15px;
+}
+#about-us-pic {
+	width:400px;
+	float:right;
+	margin-left:20px;
+	margin-top: 6px;
+}
+#about-us-section {
+	margin: 50px auto;
+	padding: 0 20px;
+    width: 850px;
+}
+.partner-img {
+	margin-left: 30px;
+	float:right;
+}
+.partner-img img {
+	height: 100%;
+}
+#partner-section {
+	padding: 0 20px;
+	overflow: auto; /* To restore its height from floating cuildren */
+	margin: 50px auto;
+    width: 850px;
+}
+#partner-tamburlaine {
+	height: 120px;
+}
+#partner-wine-n-taste {
+	height: 130px;
+}
+#contac-us-section {
+	padding-top: 30px;
+	background-color: #333333;
+}
+#contact-us-title {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	opacity: 0.9;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+@-webkit-keyframes autofill {
+    to {
+	color: #fff;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+#contac-us-section  input, #contac-us-section  textarea {
+	display: inline;
+    border: solid 1px #aaaaaa;
+    background-color: transparent;
+    font-size: 12px;
+    color: #f3f3f3;
+}
+#contact-us-container {
+	width: 850px;
+}
+#contact-user-info {
+	float:left;
+	width:384px;
+	margin-top:15px;
+}
+#contact-msg {
+	float:left;
+}
+#contact-msg textarea {
+	margin-top:15px;
+	width:370px;
+	height:116px;
+	padding-top:15px;
+	padding-left:15px;
+}
+#contact-submit-wrapper {
+	clear:both;
+	margin-top:5px;
+	float:right;
+}
+#contact-submit-wrapper button {
+	font-size: 13px;
+	margin-top:20px;
+	width:90px;
+}
+#copy-right {
+	padding-top:50px;
+	padding-bottom:30px;
+	font-size:9px;
+	color:#b0b0b0;
+	text-align:center;
+	margin:0;
+}
+#contact-first-name {
+	width:178px;
+	margin-right:10px;
+	height:50px;
+}
+#contact-last-name {
+	width:178px;
+	height:50px;
+}
+#contact-email {
+	width:370px;
+	height:50px;
+	margin-top:15px;
+}
+@media only screen and (max-width: 860px) { /* larger then #about-us-section */
+	#partner-section {
+		width: 450px;
+		text-align: center;
+	}
+	#about-us-section {
+		width: 450px;
+	}
+	#about-us-desc {
+		float: none;
+	}
+	#about-us-pic {
+		float: none;
+		width: 450px;
+		margin: 30px 0px;
+	}
+	.partner-img, #partner-section h3 {
+		width: 90%;
+		margin: 25px auto; 
+		float:none;
+	}
+	#partner-tamburlaine {
+		height: 80px;
+	}
+	#partner-wine-n-taste {
+		height: 150px;
+	}
+	#contact-submit-wrapper, #contact-user-info {
+		float: none;
+	}
+	#contact-us-title, #contact-submit-wrapper {
+		display: table;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#contact-msg  {
+		margin-bottom: 30px;
+	}
+	#contact-us-title {
+		margin-bottom: 30px;
+	}
+}

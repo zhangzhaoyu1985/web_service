@@ -1,0 +1,46 @@
+html,
+body {
+	min-width: 680px; /* In sync header bar */
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-device-width: 480px) {
+	body {
+		min-width: 0px; /* In sync header bar */
+	}
+}
+.center {
+	display: table;
+	margin: 0 auto;
+}
+
+/* Buttons */
+.btn-transparent {
+    border-style: solid;
+    border-color: white;
+	color:#ffffff;
+    text-align:center;
+    font-weight:300;
+	font-size: 14px;
+    color: white;
+}
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active {
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.btn-green {
+	background-color:#27ae60;
+	color:#ffffff;
+    text-align:center;
+    font-weight:300;
+	font-size: 14px;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active {
+    border-style: solid;
+    color: white;
+}
